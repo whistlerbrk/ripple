@@ -23,18 +23,18 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, ["~> 2.0.0.beta.6"])
       s.add_runtime_dependency(%q<riak-client>, ["= 0.7.1"])
-      s.add_runtime_dependency(%q<activesupport>, ["= 3.0.0.beta3"])
-      s.add_runtime_dependency(%q<activemodel>, ["= 3.0.0.beta3"])
+      s.add_runtime_dependency(%q<activesupport>, ["= 3.0.0.beta4"])
+      s.add_runtime_dependency(%q<activemodel>, ["= 3.0.0.beta4"])
     else
       s.add_dependency(%q<rspec>, ["~> 2.0.0.beta.6"])
       s.add_dependency(%q<riak-client>, ["= 0.7.1"])
-      s.add_dependency(%q<activesupport>, ["= 3.0.0.beta3"])
-      s.add_dependency(%q<activemodel>, ["= 3.0.0.beta3"])
+      s.add_dependency(%q<activesupport>, ["= 3.0.0.beta4"])
+      s.add_dependency(%q<activemodel>, ["= 3.0.0.beta4"])
     end
   else
     s.add_dependency(%q<rspec>, ["~> 2.0.0.beta.6"])
     s.add_dependency(%q<riak-client>, ["= 0.7.1"])
-    s.add_dependency(%q<activesupport>, ["= 3.0.0.beta3"])
-    s.add_dependency(%q<activemodel>, ["= 3.0.0.beta3"])
+    s.add_dependency(%q<activesupport>, ["= 3.0.0.beta4"])
+    s.add_dependency(%q<activemodel>, ["= 3.0.0.beta4"])
   end
 end
